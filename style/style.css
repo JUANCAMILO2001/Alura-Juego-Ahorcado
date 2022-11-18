@@ -119,8 +119,9 @@ body {
 .btn-words {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 1em;
+    align-items: center;
 }
 
 .btn-words input {
@@ -240,12 +241,14 @@ body {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 10px 10px 10px #1d1d1d;
+    border-radius: .75rem;
   }
 
   .modal-content h1{

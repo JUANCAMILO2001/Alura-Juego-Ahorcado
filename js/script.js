@@ -27,7 +27,7 @@ var modalContent = document.getElementsByClassName("modal-content");
 /*Variables del juego */
 var ctx = canvas.getContext("2d");
 var palabraSecreta = "";
-var secretWords = ["perro", "casa", "carro", "alura"];
+var secretWords = ["javascript", "funtion", "developer", "code", "frontend", "java", "framework", "pages", "label", "backend"];
 var letrasIncorrectas = "";
 var contadorErrores = 0;
 
@@ -163,7 +163,7 @@ function addNewWords(){
     if(nuevasPalabras == ""){
         alert("Campo vacio, por favor ingrese una palabra");
     }else{
-        if(nuevasPalabras.length > 7){
+        if(nuevasPalabras.length > 10){
             alert("La palabra sobrepasa los 8 caracteres");
             addWords.value = "";
         }else{
